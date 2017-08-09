@@ -4,7 +4,7 @@ The paper will appear in ICCV 2017.
 
 ## Authors
 
-Marc Masana, Joost van de Weijer, Andrew D. Bagdanov, Luis Herranz and Jose M. Álvarez
+Marc Masana, Joost van de Weijer, Luis Herranz, Andrew D. Bagdanov and Jose M. Álvarez
 
 ## Institutions
 
