@@ -1,6 +1,6 @@
 # Domain-adaptive deep network compression
 
-The paper will appear in ICCV 2017.
+The paper will appear in ICCV 2017. Code will be coming soon.
 
 ## Authors
 
