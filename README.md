@@ -6,7 +6,7 @@ ICCV 2017 [open access](http://openaccess.thecvf.com/content_ICCV_2017/papers/Ma
 
 ## Citation
 
-'''
+```
 @InProceedings{Masana_2017_ICCV,
 author = {Masana, Marc and van de Weijer, Joost and Herranz, Luis and Bagdanov, Andrew D. and Alvarez, Jose M.},
 title = {Domain-Adaptive Deep Network Compression},
@@ -14,7 +14,7 @@ booktitle = {The IEEE International Conference on Computer Vision (ICCV)},
 month = {Oct},
 year = {2017}
 }
-'''
+```
 
 ## Authors
 
