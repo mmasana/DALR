@@ -1,6 +1,20 @@
 # Domain-adaptive deep network compression
 
-The paper will appear in ICCV 2017. Code will be coming soon.
+The paper will appear in ICCV 2017. An [arXiv pre-print](https://arxiv.org/abs/1709.01041) is available.
+
+ICCV 2017 [open access](http://openaccess.thecvf.com/content_ICCV_2017/papers/Masana_Domain-Adaptive_Deep_Network_ICCV_2017_paper.pdf) is available and the poster can be found [here](./pdf/poster_DALR_ICCV_2017.pdf).
+
+## Citation
+
+'''
+@InProceedings{Masana_2017_ICCV,
+author = {Masana, Marc and van de Weijer, Joost and Herranz, Luis and Bagdanov, Andrew D. and Alvarez, Jose M.},
+title = {Domain-Adaptive Deep Network Compression},
+booktitle = {The IEEE International Conference on Computer Vision (ICCV)},
+month = {Oct},
+year = {2017}
+}
+'''
 
 ## Authors
 
