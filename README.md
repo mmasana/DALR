@@ -4,9 +4,15 @@ The paper will appear in ICCV 2017. An [arXiv pre-print](https://arxiv.org/abs/1
 
 ICCV 2017 [open access](http://openaccess.thecvf.com/content_ICCV_2017/papers/Masana_Domain-Adaptive_Deep_Network_ICCV_2017_paper.pdf) is available and the poster can be found [here](./pdf/poster_DALR_ICCV_2017.pdf).
 
-## CODE COMING SOON
+## How to run the matlab code
 
-Matlab code uploaded. Example network coming soon.
+The example network can be downloaded from [here](http://mmasana.foracoffee.org/DALR_ICCV_2017/birds_vgg19_net.mat) and copied to a new folder "nets/".
+```
+mkdir nets
+cd nets
+wget http://mmasana.foracoffee.org/DALR_ICCV_2017/birds_vgg19_net.mat
+```
+Then, the example can be run from the "code/" folder by calling the "mainScript_compress_DALR.m" file on the MatLab terminal.
 
 ## Citation
 
