@@ -15,8 +15,8 @@ run <path_to_matconvnet>/matlab/vl_setupnn
 % load imdb
 imdb = createIMDB_Birds(path_to_dataset);
 % get activations
-load('../nets/birds_vgg19_net.mat');
-[acts] = getActivations(net,imdb,'fc7','../data/CUB_200_Birds/VGG19_fc7_acts.mat');
+load('../../nets/birds_vgg19_net.mat');
+[acts] = getActivations(net,imdb,'fc7','../../data/CUB_200_Birds/VGG19_fc7_acts.mat');
 % original accuracy
 net = dagnn.DagNN.loadobj(net);
 acc = eval_acc(net,imdb);
@@ -27,7 +27,7 @@ compress = [32 64 128 256 512 1024 4096] / 4096.0;
 acc = zeros(1,size(compress,2));
 for point=size(compress,2):-1:1
     % load network
-    net = load('../nets/birds_vgg19_net.mat');
+    net = load('../../nets/birds_vgg19_net.mat');
     net = dagnn.DagNN.loadobj(net.net);
     % compress network
     newNet =  compressLayerDALR(net,'fc7',acts,compress(point),lambda);
