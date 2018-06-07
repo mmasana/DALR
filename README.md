@@ -1,10 +1,14 @@
 # Domain-adaptive deep network compression
 
-The paper will appear in ICCV 2017. An [arXiv pre-print](https://arxiv.org/abs/1709.01041) is available.
+ICCV 2017 [open access](http://openaccess.thecvf.com/content_ICCV_2017/papers/Masana_Domain-Adaptive_Deep_Network_ICCV_2017_paper.pdf) is available and the poster can be found [here](./pdf/poster_DALR_ICCV_2017.pdf). The [arXiv pre-print](https://arxiv.org/abs/1709.01041) is also available.
 
-ICCV 2017 [open access](http://openaccess.thecvf.com/content_ICCV_2017/papers/Masana_Domain-Adaptive_Deep_Network_ICCV_2017_paper.pdf) is available and the poster can be found [here](./pdf/poster_DALR_ICCV_2017.pdf).
+## How to run the tensorflow code
 
-## Tensorflow code coming soon!
+The example is done on a vanilla non-domain-transfer simple experiment. We train a LeNet network from scratch on MNIST dataset and then compress the network using either the SVD baseline or our proposed DALR method. The example code is given in a jupyter notebook.
+```
+cd code/tensorflow
+jupyter notebook Experiment_LeNet_MNIST.ipynb
+```
 
 ## How to run the matlab code
 
@@ -27,18 +31,9 @@ month = {Oct},
 year = {2017}
 }
 ```
+Code by [Marc Masana](https://mmasana.github.io/), PhD student at
+[LAMP research group](http://www.cvc.uab.es/lamp/) at Computer Vision Center, Barcelona
 
-## Authors
-
-Marc Masana, Joost van de Weijer, Luis Herranz, Andrew D. Bagdanov and Jose M. Álvarez
-
-## Institutions
-
-[Computer Vision Center, Barcelona, Spain](http://www.cvc.uab.es/lamp/)
-
-Media Integration and Communication Center, University of Florence, Florence, Italy
-
-Toyota Research Institute
 
 ## Abstract
 
